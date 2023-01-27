@@ -1,6 +1,6 @@
 export default {
   /** ⇊⇊⇊⇊⇊⇊  必须修改  ⇊⇊⇊⇊⇊⇊ */
-  githubName: "yunyuyuan", // 必须修改，github账户名
+  githubName: "even-day", // 必须修改，github账户名
   /** ⇈⇈⇈⇈⇈⇈  必须修改  ⇈⇈⇈⇈⇈⇈ */
 
   /** --------------------------------------------------- */
@@ -18,12 +18,12 @@ export default {
   CommentRepoId: "", // https://giscus.app/zh-CN
   CommentDiscussionCategoryId: "", // https://giscus.app/zh-CN
   Comment: {
-    articles: true,
+    articles: false,
     records: false,
     knowledges: false
   }, // 是否开启评论，请先设置上面的 CommentRepoId 和 CommentDiscussionCategoryId
   MongoDb: {
-    enabled: true, // 是否开启mongodb(浏览量统计)，请先设置 https://vercel.com/integrations/mongodbatlas
+    enabled: false, // 是否开启mongodb(浏览量统计)，请先设置 https://vercel.com/integrations/mongodbatlas
     initialVisitors: 1, // 如果设置成10000，那么发一篇文章立马就有10000个浏览量！
     visitFromOwner: false // 网站拥有者访问时，是否增加浏览量
   },
